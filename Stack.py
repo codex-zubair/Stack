@@ -38,3 +38,20 @@ print(My_stack)
 My_stack.appendleft("Left Data Entry")
 print(My_stack)
 
+
+
+
+#Clearing Stack Value.
+print(My_stack.clear())
+print(My_stack)
+
+
+My_stack.append("2")
+My_stack.append("1")
+My_stack.append("3")
+print(My_stack)
+
+
+#Removing Stack value.....
+My_stack.remove('3')
+print(My_stack)
