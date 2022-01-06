@@ -1,0 +1,35 @@
+Basic Operations
+Stack operations may involve initializing the stack, using it and then de-initializing it. Apart from these basic stuffs, a stack is used for the following two primary operations −
+
+push() − Pushing (storing) an element on the stack.
+
+pop() − Removing (accessing) an element from the stack.
+
+............................................................................................................................................................................
+
+When data is PUSHed onto stack.
+
+To use a stack efficiently, we need to check the status of stack as well. For the same purpose, the following functionality is added to stacks −
+
+peek() − get the top data element of the stack, without removing it.
+
+isFull() − check if stack is full.
+
+isEmpty() − check if stack is empty.
+
+
+............................................................................................................................................................................
+
+A Pop operation may involve the following steps −
+
+Step 1 − Checks if the stack is empty.
+
+Step 2 − If the stack is empty, produces an error and exit.
+
+Step 3 − If the stack is not empty, accesses the data element at which top is pointing.
+
+Step 4 − Decreases the value of top by 1.
+
+Step 5 − Returns success.
+
+
