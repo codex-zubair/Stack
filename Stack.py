@@ -55,3 +55,6 @@ print(My_stack)
 #Removing Stack value.....
 My_stack.remove('3')
 print(My_stack)
+
+#lenght Checking
+print(len(My_stack))
